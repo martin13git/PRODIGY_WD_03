@@ -27,6 +27,7 @@ This project implements a classic Tic Tac Toe game using React. It includes two 
 
 ## How to Play
 
+You can play the game live [here](https://martin13git.github.io/PRODIGY_WD_03/).
 - Click on any empty square to make a move.
 - The game alternates between 'X' and 'O' for players.
 - In player vs. computer mode, the computer makes its move automatically after a short delay.
@@ -35,6 +36,3 @@ This project implements a classic Tic Tac Toe game using React. It includes two 
 
 Contributions are welcome! If you'd like to add new features, improve the game logic, or fix bugs, feel free to fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
