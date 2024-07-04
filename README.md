@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Tic Tac Toe Game using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements a classic Tic Tac Toe game using React. It includes two game modes: player vs. player and player vs. computer (with basic AI). The game keeps track of move history and displays winner notifications.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Player vs. Player Mode:** Play against a friend locally.
+- **Player vs. Computer Mode:** Challenge a basic AI opponent.
+- **Move History:** View the sequence of moves made during the game.
+- **Winner Notification:** Displays who won the game or if it's a draw.
+- **Responsive Design:** Suitable for various screen sizes.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/martin13git/PRODIGY_WD_03.git`
+2. Navigate into the project directory: `cd PRODIGY_WD_03`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open `http://localhost:3000` in your browser to view the game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Play
 
-### `npm run build`
+- Click on any empty square to make a move.
+- The game alternates between 'X' and 'O' for players.
+- In player vs. computer mode, the computer makes its move automatically after a short delay.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you'd like to add new features, improve the game logic, or fix bugs, feel free to fork the repository and submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
