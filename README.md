@@ -1,4 +1,4 @@
-# Tic Tac Toe Game using React
+# Tic Tac Toe Game
 
 This project implements a classic Tic Tac Toe game using React. It includes two game modes: player vs. player and player vs. computer (with basic AI). The game keeps track of move history and displays winner notifications.
 
